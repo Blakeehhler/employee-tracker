@@ -113,13 +113,13 @@ function newRole() {
 }
 
 //question for adding new role
-function newRoleQ(role) {
+function newRoleQ(burrito) {
     inquirer
         .prompt([{
                 type: "list",
                 message: "What department is this role in?",
                 name: "roleDept",
-                choices: role,
+                choices: burrito,
             },
             {
                 type: "prompt",
@@ -173,7 +173,7 @@ function newEmp() {
 }
 
 //question for adding new employee
-function newEmpQ(emp1, emp2) {
+function newEmpQ(burrito1, burrito2) {
     inquirer
         .prompt([{
                 type: "prompt",
@@ -189,13 +189,13 @@ function newEmpQ(emp1, emp2) {
                 type: "list",
                 message: "What role does this employee have?",
                 name: "role",
-                choices: emp1,
+                choices: burrito1,
             },
             {
                 type: "list",
                 message: "Who is this employees manager?",
                 name: "manager",
-                choices: emp2,
+                choices: burrito2,
             },
         ])
         .then((answers) => {
@@ -240,19 +240,19 @@ function upEmp() {
 }
 
 //question for updating employee roles
-function updEmpQ(taco1, taco2) {
+function updEmpQ(burrito1, burrito2) {
     inquirer
         .prompt([{
                 type: "list",
                 message: "Which employee would you like to update?",
                 name: "empName",
-                choices: taco2,
+                choices: burrito2,
             },
             {
                 type: "list",
                 message: "What role are they changing to?",
                 name: "role",
-                choices: taco1,
+                choices: burrito2,
             },
         ])
         .then((answers) => {
