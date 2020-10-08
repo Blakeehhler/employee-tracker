@@ -6,9 +6,9 @@
 - [Contributing](#contribution)
 - [Questions](#questions)
 ## Installation:
-N/A 
+Run ```npm install```
 ## Usage:
-N/A 
+Run  ```node . ```
 ## Contributing:
 N/A   
 ## Questions
