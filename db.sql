@@ -3,7 +3,6 @@ CREATE DATABASE db;
 
 USE db;
 
-
 CREATE TABLE department(
   id INT AUTO_INCREMENT NOT NULL,
   name VARCHAR(30) NOT NULL,
